@@ -1,262 +1,528 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <title>Footwear - Free Bootstrap 4 Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title> Feane </title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt:100,300,400,700" rel="stylesheet">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- Icomoon Icon Fonts-->
+  <link rel="stylesheet" href="css/icomoon.css">
+  <!-- Ion Icon Fonts-->
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <!-- Bootstrap  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- nice select  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Flexslider  -->
+  <link rel="stylesheet" href="css/flexslider.css">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <!-- Date Picker -->
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <!-- Flaticons  -->
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <!-- Theme style  -->
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
-
 <body>
 
-  <div class="hero_area">
-    <div class="bg-box">
-      <img src="images/hero-bg.jpg" alt="">
-    </div>
-    <!-- header section strats -->
-    <header class="header_section">
+<div class="colorlib-loader"></div>
+
+<div id="page">
+  <nav class="colorlib-nav" role="navigation">
+    <div class="top-menu">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.jsp">
-            <span>
-              Feane
-            </span>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.jsp">Home <span class="sr-only">(current)</span></a>
+        <div class="row">
+          <div class="col-sm-7 col-md-9">
+            <div id="colorlib-logo"><a href="index.html">Footwear</a></div>
+          </div>
+          <div class="col-sm-5 col-md-3">
+            <form action="#" class="search-wrap">
+              <div class="form-group">
+                <input type="search" class="form-control search" placeholder="Search">
+                <button class="btn btn-primary submit-search text-center" type="submit"><i class="icon-search"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-left menu-1">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="has-dropdown">
+                <a href="men.html">Men</a>
+                <ul class="dropdown">
+                  <li><a href="product-detail.html">Product Detail</a></li>
+                  <li><a href="cart.html">Shopping Cart</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="order-complete.html">Order Complete</a></li>
+                  <li><a href="add-to-wishlist.html">Wishlist</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="item.html">Item</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="book.html">Book Table</a>
-              </li>
+              <li><a href="women.html">Women</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="cart"><a href="cart.html"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
             </ul>
-            <div class="user_option">
-              <a href="" class="user_link">
-                <i class="fa fa-user" aria-hidden="true"></i>
-              </a>
-              <a class="cart_link" href="#">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
-                  <g>
-                    <g>
-                      <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
-                   c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
-                    </g>
-                  </g>
-                  <g>
-                    <g>
-                      <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
-                   C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
-                   c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
-                   C457.728,97.71,450.56,86.958,439.296,84.91z" />
-                    </g>
-                  </g>
-                  <g>
-                    <g>
-                      <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
-                   c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
-                    </g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                  <g>
-                  </g>
-                </svg>
-              </a>
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="" class="order_online">
-                Order Online
-              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sale">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 offset-sm-2 text-center">
+            <div class="row">
+              <div class="owl-carousel2">
+                <div class="item">
+                  <div class="col">
+                    <h3><a href="#">25% off (Almost) Everything! Use Code: Summer Sale</a></h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col">
+                    <h3><a href="#">Our biggest sale yet 50% off all summer shoes</a></h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
-    </header>
-    <!-- end header section -->
-
-
-    <c:choose>
-    <c:when test="${center == null}">
-      <jsp:include page="center.jsp"/>
-    </c:when>
-    <c:otherwise>
-      <jsp:include page="${center}.jsp"/>
-    </c:otherwise>
-    </c:choose>
-
-
-
-
-
-  <!-- footer section -->
-  <footer class="footer_section">
+    </div>
+  </nav>
+  <aside id="colorlib-hero">
+    <div class="flexslider">
+      <ul class="slides">
+        <li style="background-image: url(images/img_bg_1.jpg);">
+          <div class="overlay"></div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6 offset-sm-3 text-center slider-text">
+                <div class="slider-text-inner">
+                  <div class="desc">
+                    <h1 class="head-1">Men's</h1>
+                    <h2 class="head-2">Shoes</h2>
+                    <h2 class="head-3">Collection</h2>
+                    <p class="category"><span>New trending shoes</span></p>
+                    <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(images/img_bg_2.jpg);">
+          <div class="overlay"></div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6 offset-sm-3 text-center slider-text">
+                <div class="slider-text-inner">
+                  <div class="desc">
+                    <h1 class="head-1">Huge</h1>
+                    <h2 class="head-2">Sale</h2>
+                    <h2 class="head-3"><strong class="font-weight-bold">50%</strong> Off</h2>
+                    <p class="category"><span>Big sale sandals</span></p>
+                    <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li style="background-image: url(images/img_bg_3.jpg);">
+          <div class="overlay"></div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-6 offset-sm-3 text-center slider-text">
+                <div class="slider-text-inner">
+                  <div class="desc">
+                    <h1 class="head-1">New</h1>
+                    <h2 class="head-2">Arrival</h2>
+                    <h2 class="head-3">up to <strong class="font-weight-bold">30%</strong> off</h2>
+                    <p class="category"><span>New stylish shoes for men</span></p>
+                    <p><a href="#" class="btn btn-primary">Shop Collection</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <div class="colorlib-intro">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="" class="footer-logo">
-              Feane
-            </a>
-            <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
-            </p>
-            <div class="footer_social">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
-          <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
-          </p>
+        <div class="col-sm-12 text-center">
+          <h2 class="intro">It started with a simple idea: Create quality, well-designed products that I wanted myself.</h2>
         </div>
       </div>
-      <div class="footer-info">
-        <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-        </p>
+    </div>
+  </div>
+  <div class="colorlib-product">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 text-center">
+          <div class="featured">
+            <a href="#" class="featured-img" style="background-image: url(images/men.jpg);"></a>
+            <div class="desc">
+              <h2><a href="#">Shop Men's Collection</a></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 text-center">
+          <div class="featured">
+            <a href="#" class="featured-img" style="background-image: url(images/women.jpg);"></a>
+            <div class="desc">
+              <h2><a href="#">Shop Women's Collection</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="colorlib-product">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
+          <h2>Best Sellers</h2>
+        </div>
+      </div>
+      <div class="row row-pb-md">
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-1.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-2.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Minam Meaghan</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-3.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Men's Taja Commissioner</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-4.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Russ Men's Sneakers</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-5.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-6.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-7.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-8.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-9.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-10.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-11.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-12.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-13.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-14.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-15.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4 text-center">
+          <div class="product-entry border">
+            <a href="#" class="prod-img">
+              <img src="images/item-16.jpg" class="img-fluid" alt="Free html5 bootstrap 4 template">
+            </a>
+            <div class="desc">
+              <h2><a href="#">Women's Boots Shoes Maca</a></h2>
+              <span class="price">$139.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p><a href="#" class="btn btn-primary btn-lg">Shop All Products</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="colorlib-partner">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 text-center colorlib-heading colorlib-heading-sm">
+          <h2>Trusted Partners</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col partner-col text-center">
+          <img src="images/brand-1.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+        </div>
+        <div class="col partner-col text-center">
+          <img src="images/brand-2.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+        </div>
+        <div class="col partner-col text-center">
+          <img src="images/brand-3.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+        </div>
+        <div class="col partner-col text-center">
+          <img src="images/brand-4.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+        </div>
+        <div class="col partner-col text-center">
+          <img src="images/brand-5.jpg" class="img-fluid" alt="Free html4 bootstrap 4 template">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="colorlib-footer" role="contentinfo">
+    <div class="container">
+      <div class="row row-pb-md">
+        <div class="col footer-col colorlib-widget">
+          <h4>About Footwear</h4>
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+          <p>
+          <ul class="colorlib-social-icons">
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="col footer-col colorlib-widget">
+          <h4>Customer Care</h4>
+          <p>
+          <ul class="colorlib-footer-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Returns/Exchange</a></li>
+            <li><a href="#">Gift Voucher</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Special</a></li>
+            <li><a href="#">Customer Services</a></li>
+            <li><a href="#">Site maps</a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="col footer-col colorlib-widget">
+          <h4>Information</h4>
+          <p>
+          <ul class="colorlib-footer-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Order Tracking</a></li>
+          </ul>
+          </p>
+        </div>
+
+        <div class="col footer-col">
+          <h4>News</h4>
+          <ul class="colorlib-footer-links">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Exhibitions</a></li>
+          </ul>
+        </div>
+
+        <div class="col footer-col">
+          <h4>Contact Information</h4>
+          <ul class="colorlib-footer-links">
+            <li>291 South 21th Street, <br> Suite 721 New York NY 10016</li>
+            <li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+            <li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+            <li><a href="#">yoursite.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <p>
+							<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+            <span class="block">Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> , <a href="http://pexels.com/" target="_blank">Pexels.com</a></span>
+          </p>
+        </div>
       </div>
     </div>
   </footer>
-  <!-- footer section -->
+</div>
 
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- isotope js -->
-  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-  <!-- nice select -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-  </script>
-  <!-- End Google Map -->
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="ion-ios-arrow-up"></i></a>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- popper -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap 4.1 -->
+<script src="js/bootstrap.min.js"></script>
+<!-- jQuery easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Flexslider -->
+<script src="js/jquery.flexslider-min.js"></script>
+<!-- Owl carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<!-- Date Picker -->
+<script src="js/bootstrap-datepicker.js"></script>
+<!-- Stellar Parallax -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Main -->
+<script src="js/main.js"></script>
 
 </body>
-
 </html>
+
